@@ -1,0 +1,24 @@
+{
+  "name": "node-ip-controller",
+  "version": "1.0.0",
+  "description": "Base for IP-controlled devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisBrandhorst/node-ip-controller.git"
+  },
+  "author": "Chris Brandhorst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisBrandhorst/node-ip-controller/issues"
+  },
+  "homepage": "https://github.com/ChrisBrandhorst/node-ip-controller#readme",
+  "dependencies": {
+    "debounce":       ">=1.0.0",
+    "net-keepalive":  "",
+    "merge":          ""
+  }
+}
